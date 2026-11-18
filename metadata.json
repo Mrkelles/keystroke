@@ -1,0 +1,6 @@
+{
+  "name": "Keystroke",
+  "description": "Precision typing test studio with live WPM analytics, DummyJSON quote-powered timed and word modes, local personal best tracking, and an interactive missed-key keyboard heatmap.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
