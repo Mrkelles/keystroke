@@ -145,8 +145,8 @@ export default function TypingStudioClient({
                       Precision Typing Practice
                     </h1>
                     <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">
-                      Live DummyJSON quote passages with second-by-second WPM analytics and key
-                      diagnostics.
+                      Test your typing speed and accuracy with our free online typing test.
+                      Practice regularly, track your progress, and improve your typing skills.
                     </p>
                   </div>
 

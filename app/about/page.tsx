@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: 'About Us — TypingMeter',
   description:
     'Learn why TypingMeter was built: simple typing tests, meaningful accuracy and WPM insights, and steady progress for students, professionals, writers, and programmers.',
+  alternates: {
+    canonical: "/about",
+  },
 };
 
 const audiences = [

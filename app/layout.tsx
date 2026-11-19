@@ -25,20 +25,62 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'TypingMeter — Precision Typing Test & Telemetry Studio',
-  description:
-    'Precision typing test studio with live WPM analytics, DummyJSON quote-powered timed and word modes, local personal best tracking, and an interactive missed-key keyboard heatmap.',
-  openGraph: {
-    title: 'TypingMeter — Precision Typing Test & Telemetry Studio',
-    description:
-      'Precision typing test studio with live WPM analytics, DummyJSON quote-powered timed and word modes, local personal best tracking, and an interactive missed-key keyboard heatmap.',
-    type: 'website',
+  metadataBase: new URL("https://www.typingmeter.net"),
+
+  title: {
+    default: "Typing Test - Test and Improve Your Typing Skills",
+    template: "%s | TypingMeter",
   },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'TypingMeter — Precision Typing Test & Telemetry Studio',
+
+  description:
+    "Test and improve your typing skills with our free online typing test.",
+
+  keywords: [
+    "typing examination",
+    "typing test",
+    "typing practice",
+    "typing skills test",
+    "typing speed test",
+    "typewriting",
+    "typing lessons",
+  ],
+
+  alternates: {
+    canonical: "/",
+  },
+
+  openGraph: {
+    type: "website",
+    url: "https://www.typingmeter.net",
+    title: "Typing Test - Test and Improve Your Typing Skills",
     description:
-      'Precision typing test studio with live WPM analytics, DummyJSON quote-powered timed and word modes, local personal best tracking, and an interactive missed-key keyboard heatmap.',
+      "Test and improve your typing skills with our free online typing test.",
+    siteName: "TypingMeter",
+    images: [
+      {
+        url: "https://i.imgur.com/liGggkA.png",
+        width: 1200,
+        height: 630,
+        alt: "TypingMeter - Free Online Typing Test",
+      },
+    ],
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Typing Test - Test and Improve Your Typing Skills",
+    description:
+      "Test and improve your typing skills with our free online typing test.",
+    images: ["https://i.imgur.com/liGggkA.png"],
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
   },
 };
 
