@@ -10,7 +10,7 @@ const EMERGENCY_FALLBACK_QUOTES: QuotePayload[] = [
     id: 9001,
     quote:
       'The quality of your focus determines the clarity of your craft, because steady deliberate practice turns hesitation into effortless rhythm.',
-    author: 'Keystroke Fallback Archive',
+    author: 'TypingMeter Fallback Archive',
   },
   {
     id: 9002,
